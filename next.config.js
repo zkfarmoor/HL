@@ -9,7 +9,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const isDev = process.env.NODE_ENV !== 'production'
 
 // Sometimes useful to disable this during development
-const ENABLE_CSP_HEADER = true;
+const ENABLE_CSP_HEADER = false;
 const FRAME_SRC_HOSTS = ['https://*.walletconnect.com', 'https://*.walletconnect.org','https://*.solflare.com'];
 const STYLE_SRC_HOSTS = ['https://*.googleapis.com']
 const IMG_SRC_HOSTS = ['https://*.walletconnect.com'];
