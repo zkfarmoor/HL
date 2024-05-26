@@ -29,10 +29,5 @@ export function AppLayout({ children }: PropsWithChildren) {
 }
 
 const styles = {
-  container: {
-    backgroundImage: 'url(/backgrounds/lines-bg-top.svg)',
-    backgroundSize: '94vw',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center 80px',
-  },
+  container: {},
 };

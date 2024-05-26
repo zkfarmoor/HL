@@ -1,8 +1,6 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { links } from '../../consts/links';
-import FooterBg from '../../images/backgrounds/footer-bg.svg';
 import { Color } from '../../styles/Color';
 import { Discord } from '../icons/Discord';
 import { Github } from '../icons/Github';
@@ -27,9 +25,6 @@ const footerLinks3 = [
 export function Footer() {
   return (
     <footer className="text-white relative">
-      <div className="relative w-full">
-        <Image className="z-0 w-full" src={FooterBg} alt="" />
-      </div>
       <div className="relative z-10 px-8 pb-5 pt-2 sm:pt-0 bg-black2">
         <div className="flex flex-col sm:flex-row gap-8 sm:gap-10 items-center justify-between">
           <div className="flex items-center justify-center">
