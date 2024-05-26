@@ -99,8 +99,8 @@ const nextConfig = {
 }
 
 const sentryWebpackPluginOptions = {
-  org: "hyperlane",
-  project: "warp-ui",
+  org: "zk-4h",
+  project: "hl",
   authToken: process.env.SENTRY_AUTH_TOKEN,
   bundleSizeOptimizations: {
     excludeDebugStatements: true,
